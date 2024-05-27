@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oneHeadling{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 80%;
+        min-height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://preview.colorlib.com/theme/wines/images/hero_2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+.winesOneDivs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ p{
+    font-size: 24px;
+    font-weight: 300px;
+    color: white;
+ }
+ h1{
+    font-size: 80px;
+    width: 60%;
+    font-weight: 900px;
+    color: white;
+ }
+}
+    }
+}
+@media screen and (max-width:991px) {
+    .oneHeadling{
+ .container{
+    .winesOneDivs{
+        h1{
+            width: 70%;
+            font-size: 65px;
+        }
+    }
+ }
+    }
+}
+@media screen and (max-width:576px) {
+    .oneHeadling{
+ .container{
+    .winesOneDivs{
+        h1{
+            font-size: 60px;
+        }
+    }
+ }
+    }
+}
+@media screen and (min-width:300px) and (max-width:576px) {
+    .oneHeadling{
+ .container{
+    .winesOneDivs{
+        h1{
+            font-size: 40px;
+        }
+    }
+ }
+    }
+}
+@media screen and (max-width:320px) {
+    .oneHeadling{
+ .container{
+    .winesOneDivs{
+    p{
+        font-size: 20px;
+    }
+        h1{
+            font-size:30px;
+        }
+    }
+ }
+    }
+}

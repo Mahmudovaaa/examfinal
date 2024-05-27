@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fourHead {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .textCommon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 40px;
+      .textBlog {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1 {
+          font-size: 32px;
+          font-weight: 400;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgb(94, 92, 92);
+        }
+        span {
+          font-size: 15px;
+          font-weight: 500;
+          color: purple;
+        }
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .boxs {
+          width: 30%;
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          flex-direction: column;
+          gap: 20px;
+          .fourImg {
+            width: 95%;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            img {
+              width: 100%;
+            }
+          }
+          .needspan {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            gap: 10px;
+            p {
+              font-size: 20px;
+              font-weight: 400;
+            }
+            span {
+              font-size: 16px;
+              font-weight: 400;
+              color: gray;
+            }
+            h5 {
+              font-size: 13px;
+              font-weight: 500;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .fourHead {
+    .container {
+      .textCommon {
+        flex-wrap: wrap;
+        .box {
+          .boxs {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 756px) {
+  .fourHead {
+    .container {
+      .textCommon {
+        flex-wrap: wrap;
+        .box {
+          .boxs {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+}
